@@ -39,7 +39,7 @@ int print_string(va_list types, char buffer[],
 	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
-	UNUSED(size)
+	UNUSED(size);
 	if (str == NULL)
 	{
 		str = "(null)";
@@ -158,7 +158,7 @@ int print_binary(va_list types, char buffer[],
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
-	UNUSED(preciion);
+	UNUSED(precision);
 	UNUSED(size);
 
 	n = va_arg(types, unsigned int);
