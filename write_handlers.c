@@ -9,7 +9,7 @@
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
- * Return: Number of chars printed.
+ * Return: Number of chars printd.
  */
 
 int handle_write_char(char c, char buffer[],
